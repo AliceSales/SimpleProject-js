@@ -1,0 +1,39 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+}
+
+.card {
+    background: darkseagreen;
+    padding: 12px;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-content: center;
+}
+
+.form input{
+    border: ridge 1px olive;
+    margin: 12px;
+}
+
+.form input:last-child {
+    color: white;
+    border-radius: 10px;
+    padding: 12px;
+    background: rgb(92, 179, 92);
+    border: green;
+    transition: background-color .45s;
+}
+
+.form input:last-child:hover {
+    background: rgb(43, 122, 43);
+}
